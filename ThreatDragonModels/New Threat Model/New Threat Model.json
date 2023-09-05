@@ -16,7 +16,413 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.0.5",
-        "cells": [],
+        "cells": [
+          {
+            "position": {
+              "x": 684,
+              "y": 81
+            },
+            "size": {
+              "width": 128,
+              "height": 60
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "PC / LAPTOP"
+              }
+            },
+            "id": "34f8fd83-1bc1-47ef-a8b1-c72350375150",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "PC / LAPTOP",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 150,
+              "y": 60
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Presenter"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "09916a54-c3ea-446d-bf2a-732014a6197e",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Presenter",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "ece3ab66-af13-48ef-b979-526a42912be6",
+            "source": {
+              "x": 202,
+              "y": 120
+            },
+            "target": {
+              "x": 302,
+              "y": 220
+            },
+            "vertices": [
+              {
+                "x": 250,
+                "y": 170
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "d3412a3a-2c61-4c60-b830-e68d1204ca14",
+            "source": {
+              "x": 360,
+              "y": 209
+            },
+            "target": {
+              "cell": "437d1220-4b0a-46a2-bcf1-aa9c2a6ea24e"
+            },
+            "vertices": [
+              {
+                "x": 470,
+                "y": 230
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "cb80dcf8-ad99-4fc4-9221-f2060c445566",
+            "source": {
+              "x": 684,
+              "y": 240
+            },
+            "target": {
+              "cell": "34f8fd83-1bc1-47ef-a8b1-c72350375150"
+            },
+            "vertices": [
+              {
+                "x": 720,
+                "y": 170
+              }
+            ]
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "labels": [
+              {
+                "attrs": {
+                  "text": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "b2804b42-c26d-4b8a-a9d1-66351d483173",
+            "source": {
+              "x": 416,
+              "y": 141
+            },
+            "target": {
+              "x": 520,
+              "y": 390
+            },
+            "vertices": [
+              {
+                "x": 480,
+                "y": 200
+              },
+              {
+                "x": 450,
+                "y": 270
+              },
+              {
+                "x": 450,
+                "y": 330
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 300,
+              "y": 180
+            },
+            "size": {
+              "width": 120,
+              "height": 120
+            },
+            "attrs": {
+              "text": {
+                "text": "Wireless Presenter"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "1e84de23-2f96-428a-baa4-f30969b55ae2",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Process",
+              "name": "Wireless Presenter",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 554,
+              "y": 180
+            },
+            "size": {
+              "width": 130,
+              "height": 130
+            },
+            "attrs": {
+              "text": {
+                "text": "USB Dongle"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "437d1220-4b0a-46a2-bcf1-aa9c2a6ea24e",
+            "zIndex": 12,
+            "data": {
+              "type": "tm.Process",
+              "name": "USB Dongle",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 188,
+              "y": 141
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Key Press"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "d77114f1-aa41-480c-9518-318296b44c24",
+            "zIndex": 13,
+            "data": {
+              "type": "tm.Text",
+              "name": "Key Press",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 670,
+              "y": 150
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Keyboard Input"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "c16a1868-a0a7-4758-a9e2-daca7945cde1",
+            "data": {
+              "type": "tm.Text",
+              "name": "Keyboard Input",
+              "hasOpenThreats": false
+            },
+            "zIndex": 14
+          },
+          {
+            "position": {
+              "x": 430,
+              "y": 190
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Data Packet"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "a7ab63fe-7bfd-4953-b879-88da42a1a2ef",
+            "zIndex": 15,
+            "data": {
+              "type": "tm.Text",
+              "name": "Data Packet",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 399,
+              "y": 90
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Wifi Broadcast"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "8185f504-2fb4-430d-bcf6-905354b4a9f7",
+            "zIndex": 16,
+            "data": {
+              "type": "tm.Text",
+              "name": "Wifi Broadcast",
+              "hasOpenThreats": false
+            }
+          }
+        ],
         "description": "something CVE like"
       }
     ],
