@@ -32,8 +32,8 @@
                 "text": "PC / LAPTOP"
               }
             },
-            "id": "34f8fd83-1bc1-47ef-a8b1-c72350375150",
             "zIndex": -1,
+            "id": "34f8fd83-1bc1-47ef-a8b1-c72350375150",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "PC / LAPTOP",
@@ -63,8 +63,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "09916a54-c3ea-446d-bf2a-732014a6197e",
             "zIndex": 1,
+            "id": "09916a54-c3ea-446d-bf2a-732014a6197e",
             "data": {
               "type": "tm.Actor",
               "name": "Presenter",
@@ -272,15 +272,15 @@
                 "text": "Wireless Presenter"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
             "visible": true,
             "shape": "process",
-            "id": "1e84de23-2f96-428a-baa4-f30969b55ae2",
             "zIndex": 11,
+            "id": "1e84de23-2f96-428a-baa4-f30969b55ae2",
             "data": {
               "type": "tm.Process",
               "name": "Wireless Presenter",
@@ -288,8 +288,35 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "785332dc-2c91-4ebe-aa70-2e8a8f6a79cc",
+                  "title": "Generic Confidentiality Threat",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                },
+                {
+                  "id": "9a76df2c-d75c-4099-901f-eb50a35bf09d",
+                  "title": "2ndary threat, really critical",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": "99"
+                }
+              ]
             }
           },
           {
@@ -313,8 +340,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "437d1220-4b0a-46a2-bcf1-aa9c2a6ea24e",
             "zIndex": 12,
+            "id": "437d1220-4b0a-46a2-bcf1-aa9c2a6ea24e",
             "data": {
               "type": "tm.Process",
               "name": "USB Dongle",
@@ -342,8 +369,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "d77114f1-aa41-480c-9518-318296b44c24",
             "zIndex": 13,
+            "id": "d77114f1-aa41-480c-9518-318296b44c24",
             "data": {
               "type": "tm.Text",
               "name": "Key Press",
@@ -366,13 +393,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 14,
             "id": "c16a1868-a0a7-4758-a9e2-daca7945cde1",
             "data": {
               "type": "tm.Text",
               "name": "Keyboard Input",
               "hasOpenThreats": false
-            },
-            "zIndex": 14
+            }
           },
           {
             "position": {
@@ -390,8 +417,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "a7ab63fe-7bfd-4953-b879-88da42a1a2ef",
             "zIndex": 15,
+            "id": "a7ab63fe-7bfd-4953-b879-88da42a1a2ef",
             "data": {
               "type": "tm.Text",
               "name": "Data Packet",
@@ -414,8 +441,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "8185f504-2fb4-430d-bcf6-905354b4a9f7",
             "zIndex": 16,
+            "id": "8185f504-2fb4-430d-bcf6-905354b4a9f7",
             "data": {
               "type": "tm.Text",
               "name": "Wifi Broadcast",
@@ -428,6 +455,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 2
   }
 }
